@@ -1,0 +1,2 @@
+# place this script in a place which will always be in the PATH
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
